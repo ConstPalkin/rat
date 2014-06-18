@@ -67,8 +67,8 @@ get_header(); ?>
 </table>
 <?php
 	/*pagination*/
-			//expound_content_nav( 'nav-below' );
-			pagination('<<', '>>'); 
+			echo pagination('<<', '>>'); 
+			
 ?>
 </div>
 		<?php else : ?>
